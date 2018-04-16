@@ -1,0 +1,174 @@
+
+@media (max-width: 1069px) {
+	#estrutura{
+		.subtitulo{
+			.segundo-titulo-secao{
+				margin-left: 0px;
+			}
+		}
+	}
+
+	#orcamento{
+		margin-top:60px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	#estrutura{
+		background-image: none;
+		margin-top: 90px;
+		padding-bottom: 90px;
+
+		.subtitulo-mobile{
+			h2,h3{
+				color:#ffa800;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0px;
+			}
+			h2{
+				font-size: 3em;
+				font-weight: bold;
+			}
+		}
+	}
+
+	#atracoes{
+		padding-top: 154px;
+		padding-bottom: 200px;
+
+		.texto{
+			margin-top: 15px;
+		}
+
+		.infra{
+			margin: 10px 0;
+		}
+		.subtitulo-mobile{
+			h2,h3{
+				color:#fff;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0px;
+			}
+			h2{
+				font-size: 3em;
+				font-weight: bold;
+			}
+
+			h3{
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	#depoimentos{
+		margin-bottom: 90px
+	}
+
+	#cardapio{
+
+		background-image: url(../img/cardapio.jpg);
+		background-position: center top;
+		background-repeat: repeat-y;
+		padding-bottom: 90px;
+
+		.col-md-4{
+			p{
+				margin-bottom: 30px;
+			}
+		}
+		.subtitulo-mobile{
+			h2,h3{
+				color:#fff;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0px;
+			}
+			h2{
+				font-size: 3em;
+				font-weight: bold;
+				margin-bottom: 30px;
+			}
+
+			h3{
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	#orcamento{
+		padding-bottom: 60px;
+		.orcamento{
+			flex-direction: column-reverse;
+			p{
+				padding:  15px 30px;
+				text-align: center;
+			}
+		}
+	}
+
+	#unidades{
+		background-image: none;
+		background-color: #006bd1;
+		padding-bottom: 90px;
+		padding-top: 90px;
+
+		.subtitulo-mobile{
+			h2,h3{
+				color:#fff;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0px;
+			}
+			h2{
+				font-size: 3em;
+				font-weight: bold;
+				margin-bottom: 30px;
+			}
+
+			h3{
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	#pacotes{
+		margin-top: 90px;
+		.subtitulo-mobile{
+			h2,h3{
+				color:#71c800 ;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0px;
+			}
+			h2{
+				font-size: 3em;
+				font-weight: bold;
+			}
+
+			h3{
+				font-size: 1.2em;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	#footer{
+		background-image: url(../img/background-footer-mobile.jpg);
+		background-repeat: repeat-y;
+		padding-bottom: 50px;
+		padding-top: 50px;
+
+		.unidades{
+			margin-top: 0px;
+		}
+
+		.email{
+			font-size: .8em !important;
+		}
+	}
+}
+
+

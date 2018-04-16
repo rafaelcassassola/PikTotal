@@ -1,0 +1,50 @@
+#footer{
+	background-image: url(../img/background-footer.jpg);
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 154px 0 0px 0;
+    background-color: #ffffff;
+
+
+    .unidades{
+    	margin:200px 0 50px 0;
+    	span, h3, h4, p{
+    		color: #fff;
+    	}
+    	p{
+    		margin: 0px;
+    	}
+
+    	h3{
+    		text-transform:uppercase;
+    		margin-top: 0px;
+    		font-weight: bold;
+    		font-size: 2em;
+    	}
+    	h4{
+    		margin: 30px 0 ;
+    		font-weight: bold;
+    	}
+
+    	p,span{
+    		font-size: 1.2em;
+    	}
+    }
+
+    .redes-sociais{
+    	margin-top: 20px;
+
+    	.fa{
+    		color: #fff;
+    		margin-right: 30px;
+    	}
+    }
+    
+
+    .assintura{
+    	color: #fff;
+    	font-size: 1em;
+    	padding-bottom: 10px;
+    }
+}

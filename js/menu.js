@@ -1,0 +1,1 @@
+$(document).on("scroll",function(){$(document).scrollTop()>100?$("nav").addClass("menu-hover"):$("nav").removeClass("menu-hover")});
